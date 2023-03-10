@@ -77,7 +77,7 @@ int main(){
  * Function below returns the total number of patients whose records are present in the file
  * @param  reference to infile.txt handler
  * @return count integer count
- * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Gabriel Osei Moore
+ * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Jaleel Williams
  */ 
 int count_total_patients_in_file(ifstream& infile){
     string line;
