@@ -96,7 +96,7 @@ int count_total_patients_in_file(ifstream& infile){
  * Function below returns the patient status
  * @param  char status 'N' or 'C' or 'F' or 'R'
  * @return meaning of the status
- * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Gabriel Osei Moore
+ * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Jaleel Williams
  */ 
 string return_status(char status){
     string return_statement;
@@ -118,7 +118,7 @@ string return_status(char status){
  * Function below returns the HDL/LDL ratio evaluation
  * @param  ratio of HDL/LDL
  * @return evaluation of the ratio
- * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Gabriel Osei Moore
+ * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Jaleel Williams
  */ 
 string return_ratio(float ratio){
     if (ratio > 0.3) {
@@ -133,7 +133,7 @@ string return_ratio(float ratio){
  * Function below changes the statement of the reference of HDL_Evaluation and LDL_Evaluation
  * @param  HDL reading, LDL reading, HDL_Evaluation reference, and LDL_Evaluation Reference
  * @return nothing
- * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Gabriel Osei Moore
+ * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Jaleel Williams
  */ 
 void evaluate_cholesterol(int HDL, int LDL, string& HDL_Evaluation, string& LDL_Evaluation){
     if (HDL < 40){
@@ -167,7 +167,7 @@ void evaluate_cholesterol(int HDL, int LDL, string& HDL_Evaluation, string& LDL_
  * Function below changes the statement of the reference of Systolic Evaluation, and Diastolic_Evaluation
  * @param  Systolic reading, Diastolic reading, Systolic_Evaluation reference, and Diastolic_Evaluation Reference
  * @return nothing
- * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Gabriel Osei Moore
+ * @author Biraj Dahal, Micah Capezzone, Christian R Batson, Jaleel Williams
  */ 
 void evaluate_blood_pressure(int Systolic, int Diastolic, string& Systolic_Evaluation, string& Diastolic_Evaluation){
     if (Systolic < 120){
